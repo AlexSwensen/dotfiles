@@ -1,2 +1,6 @@
 [data]
     email = "alex.swensen@gmail.com"
+
+[edit]
+    command = "code"
+    args = ["--wait"]
