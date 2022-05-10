@@ -1,0 +1,8 @@
+# This is Git's per-user configuration file.
+[user]
+	email = alex.swensen@gmail.com
+# Please adapt and uncomment the following lines:
+#	name = Alexander Swensen
+#	email = alex.swensen@gmail.com
+[init]
+	defaultBranch = main
