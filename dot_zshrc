@@ -115,3 +115,5 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # ZSH Syntax Highlighting
 
 source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
