@@ -120,6 +120,9 @@ eval "$(pyenv init -)"
 #iterm2 plugins
 test -e "${HOME}/.iterm2/" && test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# Node tool path
+export PATH="$PATH:./node_modules/.bin"
+
 # ZSH Syntax Highlighting
 
 source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
