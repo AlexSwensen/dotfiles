@@ -123,6 +123,9 @@ test -e "${HOME}/.iterm2/" && test -e "${HOME}/.iterm2_shell_integration.zsh" &&
 # Node tool path
 export PATH="$PATH:./node_modules/.bin"
 
+# alias's
+alias flushdns="sudo killall -HUP mDNSResponder"
+
 # ZSH Syntax Highlighting
 
 source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
